@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+    <link href="calc.css" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="main">
+    <div class="text">
+   <input type="text" id = "text" >
+   </div>
+   <div class="num">
+   <div class="row1">
+   <button id = "one" onclick = "getter(this.id)">1</button>
+   <button id = "two" onclick = "getter(this.id)">2</button>
+   <button id = "three" onclick = "getter(this.id)">3</button>
+</div>
+<div class="row2">
+   <button id = "four" onclick = "getter(this.id)">4</button>
+   <button id = "five" onclick = "getter(this.id)">5</button>
+   <button id = "six" onclick = "getter(this.id)">6</button>
+</div>
+<div class="row3">
+   <button id = "seven" onclick = "getter(this.id)">7</button>
+   <button id = "eight" onclick = "getter(this.id)">8</button>
+   <button id = "nine" onclick = "getter(this.id)">9</button>
+</div>
+<div class="row4">
+   <button id = "add" onclick = "getter(this.id)" > + </button>
+   <button id = "sub"  onclick = "getter(this.id)">-</button>
+   <button id = "div"  onclick = "getter(this.id)">/</button>
+   
+</div>
+<div class="row5">
+    <button id = "mul"  onclick = "getter(this.id)">*</button>
+   <button id = "equals"  onclick = "calculateNumbers(getter(this.id))" >=</button>
+   <button id = "clear"  onclick = "clearDisplay()">C</button>
+</div>
+
+
+</div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
